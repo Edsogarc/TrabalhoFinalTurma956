@@ -1,7 +1,9 @@
 ﻿using APIPessoa.Filter;
 using Evento.Service.Interface;
 using Eventos.Service.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace Eventos.Controllers
 {
@@ -58,6 +60,7 @@ namespace Eventos.Controllers
             return Ok(resposta);
         }
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
@@ -70,6 +73,7 @@ namespace Eventos.Controllers
             return Ok(entity);
         }
         [HttpPut]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
@@ -82,6 +86,7 @@ namespace Eventos.Controllers
             return Ok(entity);
         }
         [HttpDelete]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]

@@ -1,12 +1,15 @@
 ﻿using APIPessoa.Filter;
 using Evento.Service.Interface;
 using Eventos.Service.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eventos.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Consumes("application/json")]
+    [Produces("application/json")]
     public class EventReservationController : Controller
     {
         private IEventReservationService _eventReservationService;
@@ -16,6 +19,7 @@ namespace Eventos.Controllers
             _eventReservationService = eventReservationService;
         }
         [HttpGet]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
@@ -29,6 +33,7 @@ namespace Eventos.Controllers
             return Ok(resposta);
         }
         [HttpPost]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
@@ -41,6 +46,7 @@ namespace Eventos.Controllers
             return Ok();
         }
         [HttpPut]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
@@ -53,6 +59,7 @@ namespace Eventos.Controllers
             return Ok();
         }
         [HttpDelete]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [TypeFilter(typeof(ExcecaoGeralFilter))]
