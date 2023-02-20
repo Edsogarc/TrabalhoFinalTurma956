@@ -1,0 +1,15 @@
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\bin\Debug\net6.0\Eventos.Infra.Data.deps.json
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\bin\Debug\net6.0\Eventos.Infra.Data.dll
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\bin\Debug\net6.0\Eventos.Infra.Data.pdb
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\bin\Debug\net6.0\Eventos.Service.dll
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\bin\Debug\net6.0\Eventos.Service.pdb
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.csproj.AssemblyReference.cache
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.AssemblyInfoInputs.cache
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.AssemblyInfo.cs
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.csproj.CoreCompileInputs.cache
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.csproj.CopyComplete
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.dll
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\refint\Eventos.Infra.Data.dll
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\Eventos.Infra.Data.pdb
+C:\projetoscsharp\Eventos\Eventos.Infra.Data\obj\Debug\net6.0\ref\Eventos.Infra.Data.dll

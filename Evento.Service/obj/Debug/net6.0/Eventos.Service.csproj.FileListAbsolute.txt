@@ -1,0 +1,12 @@
+C:\projetoscsharp\Eventos\Evento.Service\bin\Debug\net6.0\Eventos.Service.deps.json
+C:\projetoscsharp\Eventos\Evento.Service\bin\Debug\net6.0\Eventos.Service.dll
+C:\projetoscsharp\Eventos\Evento.Service\bin\Debug\net6.0\Eventos.Service.pdb
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.csproj.AssemblyReference.cache
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.AssemblyInfoInputs.cache
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.AssemblyInfo.cs
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.csproj.CoreCompileInputs.cache
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.dll
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\refint\Eventos.Service.dll
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\Eventos.Service.pdb
+C:\projetoscsharp\Eventos\Evento.Service\obj\Debug\net6.0\ref\Eventos.Service.dll
